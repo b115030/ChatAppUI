@@ -102,3 +102,22 @@ body {
     width: 40px;
     border-radius: 100%;
 }
+.title-text {
+    font-weight: bold;
+    color: #eee;
+    padding-left: 5px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.created-date {
+    font-size: 1rem;
+}
+.conversation-message {
+    grid-column: span 2;
+    padding-left: 5px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
