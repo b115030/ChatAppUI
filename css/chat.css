@@ -96,3 +96,9 @@ body {
 .conversation:hover {
     cursor: pointer;
 }
+.conversation > img {
+    grid-row: span 2;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
